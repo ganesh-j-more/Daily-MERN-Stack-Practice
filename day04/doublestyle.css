@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 1rem;
+  border: 5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 5px solid red;
+}
